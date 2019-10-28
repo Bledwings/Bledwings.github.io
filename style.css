@@ -1,4 +1,18 @@
+#img {
 
+	background-image: url("https://i.imgur.com/CxOmmLK.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	min-height: 600px;
+	overflow: hidden;
+
+
+}
+
+p{
+	font-size: 22px;
+}
 
 /*body
 {
@@ -18,6 +32,7 @@ body
     overflow-x: hidden; 
 }
 
+
 .links
 {
 	text-decoration: none;
@@ -28,7 +43,7 @@ body
 }
 
 
-img
+/*img
 {
 	width: 1450px;
     height:780px;
@@ -36,3 +51,4 @@ img
 	object-fit: fill;
 
 }
+*/

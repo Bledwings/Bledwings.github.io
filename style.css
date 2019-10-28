@@ -32,7 +32,7 @@ img
 {
 	width: 1450px;
     height:780px;
-	/*object-fit: cover;
-	object-fit: fill;*/
+	object-fit: cover;
+	object-fit: fill;
 
 }

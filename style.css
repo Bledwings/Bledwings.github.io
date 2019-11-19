@@ -92,14 +92,6 @@ body
   color: forestgreen;
 }
 
-/*.event
-{
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 100%;
-  height: auto;
-}*/
-
 .responsive {
   width: 100%;
   height: auto;
@@ -191,6 +183,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   text-align: center;
   /*border:1px solid black;*/
 
+}
+
+/*form page*/
+
+.form{
+  text-align: center;
+}
+
+.map{
+  margin-left: 100px;
+  float: left;
+}
+
+.email_title{
+  font-size: 30px;
+  font-family: Noto sans, sans-serif;
+  color: forestgreen;
+}
+
+.email{
+  padding-top: 200px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Noto sans, sans-serif;
+}
+
+.clearfix{
+    clear:both
 }
 
 

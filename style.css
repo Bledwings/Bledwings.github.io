@@ -1,16 +1,20 @@
 #img {
 
 	background-image: url("https://i.imgur.com/CxOmmLK.jpg");
-	background-position: center;
-	background-size: 100%;
-  background-repeat: no-repeat;
-	/*background-attachment: fixed;*/
   height: 700px;
-	overflow: hidden;
-  break-inside: 10px;
-  margin: 0px;
+    background-repeat:no-repeat;
+  background-size:100%;
+  background-position:center center;
+  background-attachment: fixed; /*for parallax scrolling effect */
 
 }
+
+@media only screen and (max-width:749px) {
+  .parallax {
+    background-attachment: inherit;
+  }
+}
+
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -20,6 +24,13 @@
   padding-bottom: 15px;
 }
 
+/*@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }*/
+
 
 /* Style the header links */
 .header a {
@@ -27,7 +38,7 @@
 	color: white;
 	font-size: 20px;
 	font-family: Noto sans, sans-serif;
-	padding: 15px;
+	padding: 10px;
   margin-right: 10px;
 }
 
@@ -36,23 +47,10 @@
   float: right;
 }
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-}
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%
-  
 }
 
 .sticky + .body {
@@ -68,64 +66,33 @@ body
     overflow-x: hidden; 
 }
 
-.about_h
-{
+
+.title{
   margin-left: 150px;
   font-family: Helvetica, sans-serif;
   color: forestgreen;
-
 }
 
-.about
+.content
 {
   color: black;
   font-size: 17px;
   font-family: Helvetica, sans-serif;
-  margin-right: 150px;
-  margin-left: 150px;
+  width: 80%;
+  margin: 0 auto;
+  
 }
 
-.event_h
-{
-  margin-left: 150px;
-  font-family: Helvetica, sans-serif;
-  color: forestgreen;
-}
 
 .responsive {
   width: 100%;
   height: auto;
 }
 
-.event
-{
-   color: black;
-  font-size: 20px;
-  font-family: Helvetica, sans-serif;
-   margin-right: 150px;
-  margin-left: 150px;
-}
-
-.content
-{
-  color: black;
-  font-size: 20px;
-  font-family: Helvetica, sans-serif;
-  /*border:1px solid black; */
-}
-
-.social
-{
-  margin-left: 150px;
-  font-family: Helvetica, sans-serif;
-  color: forestgreen;
-}
-
 .widgets
 {
-  margin-left: 150px;
-  margin-right: 150px;
-  float: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .discord
@@ -139,13 +106,6 @@ body
   float: left;
   width: 50%;
 }
-
-.github-widget
-{
-  float: left;
-  width: 33%;
-}
-
 
 
 .fa:hover {
@@ -213,5 +173,44 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 .clearfix{
     clear:both
 }
+
+
+
+/*about page*/
+
+
+.group{
+  background-image: url("https://i.imgur.com/8MZuELD.jpg");
+  height: 700px;
+  background-repeat:no-repeat;
+background-size:100%;
+background-position:center center;
+  
+  
+}
+
+.meet_h{
+   margin-left: 150px;
+  font-family: Helvetica, sans-serif;
+  color: forestgreen;
+}
+
+.column{
+  display: inline-block;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
+
+ul{
+  display: inline-block;
+  max-width: 300px;
+}
+
+
+
+
+
+
 
 

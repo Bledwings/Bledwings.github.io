@@ -5,15 +5,10 @@
     background-repeat:no-repeat;
   background-size:100%;
   background-position:center center;
-  background-attachment: fixed; /*for parallax scrolling effect */
+
 
 }
 
-@media only screen and (max-width:749px) {
-  .parallax {
-    background-attachment: inherit;
-  }
-}
 
 
 /* Style the header with a grey background and some padding */
@@ -197,14 +192,12 @@ background-position:center center;
 
 .column{
   display: inline-block;
-  padding-left: 70px;
-  padding-right: 50px;
-}
+  }
 
 
 ul{
-  display: inline-block;
   max-width: 300px;
+  display: inline-block;
 }
 
 

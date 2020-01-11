@@ -192,6 +192,7 @@ background-position:center center;
 
 .column{
   display: inline-block;
+  /*margin: 0 auto;*/
   }
 
 

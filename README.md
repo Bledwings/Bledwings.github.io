@@ -1,1 +1,1 @@
- [here](https://bledwings.github.io)
+ https://amosisok.github.io
